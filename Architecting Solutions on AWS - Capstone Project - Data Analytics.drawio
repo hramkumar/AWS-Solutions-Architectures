@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T08:09:56.921Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ntZ-8qTXqa81WfGW-5DG" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-12T08:10:42.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="i6fKBCopNP3rBjqPyNtd" version="20.6.2" type="github">
   <diagram id="0KVzS3gzruAa5SCd7N2P" name="Page-1">
     <mxGraphModel dx="1186" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,6 +18,9 @@
         </mxCell>
         <mxCell id="bt1ztzc81OhMpk3LV-u5-3" value="Amazon QuickSight" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.quicksight;" vertex="1" parent="hv5cUMv6Dfn7MdZd3gP0-86">
           <mxGeometry x="276" y="315" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bt1ztzc81OhMpk3LV-u5-8" value="Amazon Athena" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.athena;" vertex="1" parent="hv5cUMv6Dfn7MdZd3gP0-86">
+          <mxGeometry x="279.63" y="90" width="72.73" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hv5cUMv6Dfn7MdZd3gP0-88" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" parent="1" vertex="1">
           <mxGeometry x="710" y="355" width="72" height="90" as="geometry" />
