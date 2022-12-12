@@ -1,12 +1,12 @@
 # AWS-Solutions-Architecture - Data Analytics Architecture
 
-A three-tier architecture composed of a frontend (HTML, CSS, JavaScript), backend (Apache Web Server and a Java application), and database (MySQL). The three-tier application hosts a dynamic website that accepts user traffic from the internet.
+A Data Analytics Architecture to migrate nearly any amount of data from an on-premises Apache Hadoop environment to AWS and store it in S3.
 
-Users hit Route 53, then to Cloud Front for content delivery to edge location from static content hosted in S3. Dynamic content is served by the Application tier that gets routed through Internet Gatway and Web Tier in Public Subnet.
+Currently the data is stored in On Premise Data center and if a power outage occurred in the data center, all systems would be brought offline.
 
-Both the App Tier and Data Base Tier are in Private subnets so that no direct request can be made by users for better security.
+Until data is migrated to AWS, Direct Connect is added to the architecture. Once it is all migrated to S3, we can use Athena to query the details using SQL and Quicksight visualization to derive insights.
 
-Also considering High Availibility and Resiliency the architecture is span across Availability Zones.
+**For migration we are using Anazon DataSync to migrate from on premise to S3. **
 
-For Database, we have a Standby in case of DB failure and a Ready replica to serve Read Only requests.
 
+![Architecting Solutions on AWS - Capstone Project - Data Analytics drawio](https://user-images.githubusercontent.com/8630317/207009408-3c684772-7b67-4bf1-8d44-a3dbcad4fdcc.png)
