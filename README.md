@@ -6,4 +6,8 @@ Users hit Route 53, then to Cloud Front for content delivery to edge location fr
 
 Both the App Tier and Data Base Tier are in Private subnets so that no direct request can be made by users for better security.
 
+Also considering High Availibility and Resiliency the architecture is span across Availability Zones.
+
+For Database, we have a Standby in case of DB failure and a Ready replica to serve Read Only requests.
+
 ![Architecting Solutions on AWS - Capstone Project - 3 Tier Architecture drawio](https://user-images.githubusercontent.com/8630317/206986574-cc889f93-447d-4606-886a-b041b5e63c57.png)
