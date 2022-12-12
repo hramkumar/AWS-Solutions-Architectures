@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T08:10:42.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="i6fKBCopNP3rBjqPyNtd" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-12T08:17:50.029Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ikfS4KydFhdtY4EA13uX" version="20.6.2" type="github">
   <diagram id="0KVzS3gzruAa5SCd7N2P" name="Page-1">
     <mxGraphModel dx="1186" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,8 +13,14 @@
         <mxCell id="hv5cUMv6Dfn7MdZd3gP0-87" value="VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#248814;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" parent="hv5cUMv6Dfn7MdZd3gP0-86" vertex="1">
           <mxGeometry x="20" y="50" width="230" height="400" as="geometry" />
         </mxCell>
+        <mxCell id="bt1ztzc81OhMpk3LV-u5-9" value="Private subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#147EBA;fillColor=#E6F2F8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" vertex="1" parent="hv5cUMv6Dfn7MdZd3gP0-87">
+          <mxGeometry x="20" y="94" width="190" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="bt1ztzc81OhMpk3LV-u5-6" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoint;" vertex="1" parent="bt1ztzc81OhMpk3LV-u5-9">
+          <mxGeometry x="56" y="46" width="78" height="78" as="geometry" />
+        </mxCell>
         <mxCell id="bt1ztzc81OhMpk3LV-u5-7" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;&lt;font face=&quot;Source Sans Pro, Arial, sans-serif&quot; color=&quot;#1f1f1f&quot;&gt;S3 Endpoint&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hv5cUMv6Dfn7MdZd3gP0-87">
-          <mxGeometry x="60" y="250" width="118" height="30" as="geometry" />
+          <mxGeometry x="56" y="230" width="118" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bt1ztzc81OhMpk3LV-u5-3" value="Amazon QuickSight" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.quicksight;" vertex="1" parent="hv5cUMv6Dfn7MdZd3gP0-86">
           <mxGeometry x="276" y="315" width="80" height="110" as="geometry" />
@@ -48,9 +54,6 @@
             <mxPoint x="347" y="420" as="sourcePoint" />
             <mxPoint x="387" y="420" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="bt1ztzc81OhMpk3LV-u5-6" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoint;" vertex="1" parent="1">
-          <mxGeometry x="530" y="355" width="78" height="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
